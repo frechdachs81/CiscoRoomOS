@@ -7,7 +7,7 @@ function timeout(ms) {
 xapi.status.on('Video Selfview Mode', (event) => {
     
     if (event === 'Off') {
-      var monitors = "Single";
+      var monitors = "Single"; //Change to Triple when using Inogeni USB3.0
       xapi.status.get('Video Monitors').then((count) => {
         var current = count;
         console.log("Monitor Role " +current);
