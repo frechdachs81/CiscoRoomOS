@@ -1,0 +1,73 @@
+<Extensions>
+  <Version>1.9</Version>
+  <Panel>
+    <Order>1</Order>
+    <PanelId>presets</PanelId>
+    <Origin>local</Origin>
+    <Location>HomeScreenAndCallControls</Location>
+    <Icon>Camera</Icon>
+    <Color>#C233C4</Color>
+    <Name>Presets</Name>
+    <ActivityType>Custom</ActivityType>
+    <Page>
+      <Name>Preset Change</Name>
+      <Row>
+        <Name>Preset Selection</Name>
+        <Widget>
+          <WidgetId>preset_sel</WidgetId>
+          <Type>GroupButton</Type>
+          <Options>size=4;columns=4</Options>
+          <ValueSpace>
+            <Value>
+              <Key>bt_sel_1</Key>
+              <Name>1</Name>
+            </Value>
+            <Value>
+              <Key>bt_sel_2</Key>
+              <Name>2</Name>
+            </Value>
+            <Value>
+              <Key>bt_sel_3</Key>
+              <Name>3</Name>
+            </Value>
+            <Value>
+              <Key>bt_sel_4</Key>
+              <Name>4</Name>
+            </Value>
+          </ValueSpace>
+        </Widget>
+      </Row>
+      <Options/>
+    </Page>
+    <Page>
+      <Name>Preset Set</Name>
+      <Row>
+        <Name>Preset Selection Set</Name>
+        <Widget>
+          <WidgetId>preset_set</WidgetId>
+          <Type>GroupButton</Type>
+          <Options>size=4</Options>
+          <ValueSpace>
+            <Value>
+              <Key>bt_set_1</Key>
+              <Name>1</Name>
+            </Value>
+            <Value>
+              <Key>bt_set_2</Key>
+              <Name>2</Name>
+            </Value>
+            <Value>
+              <Key>bt_set_3</Key>
+              <Name>3</Name>
+            </Value>
+            <Value>
+              <Key>bt_set_4</Key>
+              <Name>4</Name>
+            </Value>
+          </ValueSpace>
+        </Widget>
+      </Row>
+      <Options/>
+    </Page>
+  </Panel>
+</Extensions>
